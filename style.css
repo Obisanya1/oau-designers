@@ -1,0 +1,87 @@
+body {
+    padding: 20px;
+}
+
+.pages ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.pages ul li {
+    font-weight: 500;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.section1 h1 {
+    font-family: Nuosu SIL;
+    font-size: 78px;
+    font-weight: 400;
+    line-height: 79px;
+    letter-spacing: -0.02em;
+    text-align: left;    
+}
+
+.section1 button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    height: 71px;
+    width: 177px;
+border: none;
+font-size: 18px;
+}
+
+.join {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.section2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section2 h3{
+font-family: Nuosu SIL;
+font-size: 42px;
+font-weight: 400;
+line-height: 52px;
+text-align: left;
+}
+
+.section2 p {
+font-family: Gotham;
+font-size: 16px;
+font-weight: 400;
+line-height: 31px;
+text-align: justified;
+width: 600px;
+}
+
+.section2 .star{
+position: absolute;
+left: 490;
+top: 850;
+}
+
+.about button {
+    background-color: black;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+border-radius: 5px;
+}
